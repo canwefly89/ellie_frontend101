@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Sansita+Swashed:wght@700&display=swap");
+
+/* font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Sansita Swashed', cursive; */
+
+body {
+  background: #eccc68;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-color: #fbfbfb;
+  width: 400px;
+  height: 700px;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-top: 100px;
+  box-shadow: 10px 10px 25px -1px rgba(156, 154, 156, 1);
+}
+
+.top {
+  background-color: #3742fa;
+  width: 400px;
+  height: 100px;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.top .top__title {
+  font-family: "Sansita Swashed", cursive;
+  color: white;
+}
+
+.shopping {
+  height: 450px;
+}
+
+.shopping__lists {
+  padding: 15px 30px 15px 30px;
+}
+
+.shopping__lists .shoppling__lists__list {
+  font-family: "Noto Sans JP", sans-serif;
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#newList {
+  display: block;
+  height: 30px;
+  width: 380px;
+  padding-left: 10px;
+  margin: 0 auto;
+  margin-bottom: 3px;
+}
+
+.bottom {
+  background-color: #3742fa;
+  height: 120px;
+  border-radius: 0 0 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  cursor: pointer;
+  z-index: 99;
+}
+
+.addBtn {
+  border: none;
+  background: inherit;
+  color: white;
+  font-size: 60px;
+  cursor: pointer;
+}
