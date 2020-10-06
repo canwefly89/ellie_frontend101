@@ -1,5 +1,4 @@
 const shoppingLists = document.querySelector(".shopping__lists");
-const removeBtn = document.querySelectorAll(".removeBtn");
 
 function addToList() {
   let newList = document.getElementById("newList").value;
